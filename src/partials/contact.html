@@ -1,0 +1,144 @@
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="visually-hidden">Contacts</h2>
+    <ul class="contact__main">
+      <li class="contact__list list">
+        <div class="contact__container">
+          <p class="contact__cafe">CAFE</p>
+          <h3 class="contact__city"><b>Chicago</b></h3>
+          <p class="contact__about">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+          <p class="contact__day weekdays">Monday - Friday</p>
+          <p class="contact__time">06:00 AM - 10:00 PM</p>
+          <p class="contact__day weekend">Saturday - Sunday</p>
+          <p class="contact__time weekend__time">08:00 AM - 16:00 PM</p>
+          <ul class="contact__data">
+            <li>
+              <a class="contact__link link" href="tel:+61(0)383766284">+61(0) 383 766 284 </a>
+            </li>
+            <li>
+              <a class="contact__link link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="contact__list list">
+        <div class="contact__container">
+          <p class="contact__cafe cafe">FOODTRUCK</p>
+          <h3 class="contact__city"><b>Los Angeles</b></h3>
+          <p class="contact__about">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+          <p class="contact__day">Monday - Friday</p>
+          <p class="contact__time weekdays">06:00 AM - 10:00 PM</p>
+          <p class="contact__day weekend">Saturday - Sunday</p>
+          <p class="contact__time weekend__time">08:00 AM - 16:00 PM</p>
+          <ul class="contact__data">
+            <li>
+              <a class="contact__link link" href="tel:+61(0)383766284">+61(0) 383 766 284 </a>
+            </li>
+            <li>
+              <a class="contact__link link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="contact__list list">
+        <div class="contact__container">
+          <p class="contact__cafe">CAFE</p>
+          <h3 class="contact__city"><b>New York</b></h3>
+          <p class="contact__about">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+          <p class="contact__day weekdays">Monday - Friday</p>
+          <p class="contact__time">06:00 AM - 10:00 PM</p>
+          <p class="contact__day weekend">Saturday - Sunday</p>
+          <p class="contact__time weekend__time">08:00 AM - 16:00 PM</p>
+          <ul class="contact__data">
+            <li>
+              <a class="contact__link link" href="tel:+61(0)383766284">+61(0) 383 766 284 </a>
+            </li>
+            <li>
+              <a class="contact__link link" href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    <div class="contact__button">
+      <a
+        class="contact__btn first-btn"
+        href="https://www.google.com/maps/place/New+york+ice+cream/@40.7623275,-73.9870104,15.25z/data=!3m1!5s0x89c25857750999cd:0x58b1632520944537!4m9!1m2!2m1!1z0LzQvtGA0L7QttC10L3QvtC1INCyINC90YzRjiDQudC-0YDQutC1!3m5!1s0x89c259bb93323f41:0x786a330ca81bc581!8m2!3d40.7611521!4d-73.9846562!15sCifQvNC-0YDQvtC20LXQvdC-0LUg0LIg0L3RjNGOINC50L7RgNC60LVaKSIn0LzQvtGA0L7QttC10L3QvtC1INCyINC90YzRjiDQudC-0YDQutC1kgEOaWNlX2NyZWFtX3Nob3A"
+        target="_blank"
+        title="Link on Google Maps"
+      >
+        Our Locations &nbsp;
+        <svg width="8px" height="9px">
+          <use href="./images/icons.svg#icon-bracket"></use>
+        </svg>
+      </a>
+      <button class="contact__btn second-btn" type="button" data-modal-open-contact>
+        Franchise &nbsp;
+        <svg width="8px" height="9px">
+          <use href="./images/icons.svg#icon-greated"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+<div data-modal-contact class="backdrop is-hidden">
+  <div class="contact__modal">
+    <button data-modal-close-contact class="contact__close btn">
+      <svg width="18" height="18">
+        <use href="./images/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+    <form action="#" class="modal-form">
+      <p class="contact__title"><b> Leave your details, we will call you back</b></p>
+      <div class="contact-field">
+        <label for="user-names" class="contact__label">Your name:</label>
+        <div class="wrap-input">
+          <input
+            type="text"
+            name="user-names"
+            id="user-names"
+            class="contact__input"
+            placeholder="Name"
+            required
+          />
+          <svg width="18" height="18" class="contact__svg">
+            <use href="./images/icons.svg#icon-person"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="contact-field">
+        <label for="user-phones" class="contact__label">Phone number:</label>
+        <div class="wrap-input">
+          <input
+            type="tel"
+            name="user-phones"
+            id="user-phones"
+            class="contact__input"
+            placeholder="Phone"
+            required
+          />
+          <svg width="18" height="18" class="contact__svg">
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>
+        </div>
+      </div>
+      <label class="contact__label">
+        Comment<textarea
+          class="contact__textarea"
+          name="message"
+          rows="5"
+          placeholder="Entering text"
+        ></textarea>
+      </label>
+      <div class="contact__privacy">
+        <input
+          type="checkbox"
+          class="contact__inputpr visually-hidden"
+          name="modal-check"
+          id="modal-checks"
+        />
+        <button type="submit" class="contact__submit btn">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>

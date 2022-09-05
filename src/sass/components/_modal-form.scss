@@ -1,0 +1,198 @@
+.modal-form__input {
+  width: 100%;
+  height: 40px;
+  padding: 7px 33px;
+  color: $secondary-text-color;
+  cursor: $cursor-pointer;
+  @include font(14px, 400, 1.86);
+  @include desktop {
+    @include font(16px, null, null);
+  }
+
+  &::placeholder {
+    @include font(14px, 400, 1.86);
+    @include desktop {
+      @include font(16px, null, null);
+    }
+  }
+
+  border: 1px solid $border-color;
+  border-radius: 78px;
+  box-shadow: inset 1px 3px 10px rgba(230, 150, 169, 0.5);
+  outline: none;
+  transition: border-color $timing-function-duration $timing-function;
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+}
+.modal-form__svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+  margin-left: 12px;
+  transform: translateY(-50%);
+  transition: fill $timing-function-duration $timing-function;
+  .modal-form__input:focus + & {
+    fill: $accent-color;
+  }
+}
+.modal-form__label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  cursor: $cursor-pointer;
+
+  @include font(16px, 500, 1.86);
+  @include desktop {
+    @include font(20px, null, null);
+  }
+
+  color: $main-text-color;
+  &_::placeholder {
+    @include font(12px, 500, 1.86);
+
+    color: $placeholder-color;
+  }
+}
+
+.wrap-input {
+  position: relative;
+}
+.form-field {
+  margin-bottom: 15px;
+}
+.privacy {
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+
+.privacy__text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  color: $main-text-color;
+  cursor: $cursor-pointer;
+
+  @include font(12px, 500, 1.86, 0.02em);
+  @include tablet {
+    @include font(13px, null, null, null);
+  }
+  @include desktop {
+    @include font(18px, null, null, null);
+  }
+
+  align-items: center;
+}
+.privacy__icon {
+  content: '';
+  width: 12px;
+  height: 12px;
+
+  fill: $input-bg-color;
+  transition: background-color $timing-function-duration $timing-function,
+    fill $timing-function-duration $timing-function;
+}
+
+.privacy__input:checked + .privacy__text .privacy__icon {
+  border: none;
+  fill: $accent-color;
+}
+
+.privacy-wrap {
+  display: flex;
+  margin-right: 10px;
+  border-radius: 5px;
+
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  background-color: $main-text-color;
+}
+.order {
+  text-align: center;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  cursor: $cursor-pointer;
+}
+.order__label {
+  display: inline-block;
+  cursor: $cursor-pointer;
+
+  align-items: center;
+  @include font(14px, 500, 1.86);
+  @include desktop {
+    @include font(20px, null, null);
+  }
+
+  color: $main-text-color;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.order__title {
+  @include font(16px, 500, 1.86);
+  @include desktop {
+    @include font(20px, null, null);
+  }
+
+  color: $main-text-color;
+  margin-bottom: 10px;
+}
+.order__select {
+  display: inline-block;
+  border-color: $border-color;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  height: 25px;
+  cursor: $cursor-pointer;
+
+  @media screen and (min-width: 320px) {
+    width: 100px;
+  }
+  @include desktop {
+    width: 200px;
+    height: 35px;
+  }
+  border-radius: 10px;
+  transition: border-color $timing-function-duration $timing-function;
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+}
+.order__input {
+  display: inline-block;
+  border-color: $border-color;
+  outline: none;
+  color: $secondary-text-color;
+  width: 65px;
+  height: 25px;
+  margin-left: 5px;
+  cursor: $cursor-pointer;
+
+  @media screen and (min-width: 320px) {
+    margin-left: auto;
+  }
+  margin-left: auto;
+  @include desktop {
+    height: 35px;
+  }
+  text-align: center;
+  border-radius: 10px;
+  transition: border-color $timing-function-duration $timing-function;
+  &::placeholder {
+    @include font(14px, 400, 1.86);
+    @include desktop {
+      @include font(16px, null, null);
+    }
+  }
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+}

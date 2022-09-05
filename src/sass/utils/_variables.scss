@@ -1,0 +1,56 @@
+$main-font-family: 'DM Sans', sans-serif;
+$secondary-font-family: 'Titan One', cursive;
+
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1280px;
+$hero-bg-first: #ffb8ca;
+$hero-bg-second: #ffa5ba;
+$hero-text-first: #d41443;
+$hero-text-second: #ffffff;
+$hero-btn-first: #c7133e;
+
+$howmade-bcg-color: #fff5f6;
+$howmade-text-color: #000000;
+$show-made-text-color-two: #907e82;
+$show-made-bcg-btn-hover-color: #ecebeb;
+
+$hero-duration250ms: 250ms;
+$hero-time-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+$header-bg-color: #ffb8ca;
+$header-menu-bg-color: #e17991;
+$header-text-first: #d41443;
+$header-text-second: #ffffff;
+
+///Products section vars
+$products-text-color: #ffffff;
+$products-pre-color: #ffa5ba;
+$products-title-color: #d41443;
+
+$products-main-bg: #ffffff;
+$products-icecrem-bg: #ffa5ba;
+$products-coffee-bg: #f0d1a5;
+$products-shakes-bg: #c2e297;
+
+$footer-bg-first: #fff5f6;
+$footer-bg-second: #fea5bb;
+$footer-text-second: #907e82;
+$footer-hover-first: #d41443;
+$footer-border-first: #e1e1e1;
+
+// Modal vars
+$main-text-color: #ffffff;
+$secondary-text-color: #d41443;
+
+$main-bg-color: #ffb8ca;
+$input-bg-color: #fff5f6;
+$border-color: rgba(33, 33, 33, 0.2);
+$placeholder-color: rgba(255, 255, 255, 0.5);
+
+$accent-color: #c7133e;
+$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$timing-function-duration: 250ms;
+
+$cursor: url(../images/cursor/1.png), default;
+$cursor-pointer: url(../images/cursor/2.png), default;
