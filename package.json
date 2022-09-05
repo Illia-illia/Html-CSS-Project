@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://DZaporozhan.github.io/The-Ice-Cream-Project",
+  "homepage": "https://Illia-illia.github.io/Html-CSS-Project",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /The-Ice-Cream-Project/"
+    "build": "parcel build src/*.html --public-url /Html-CSS-Project/"
   },
   "repository": {
     "type": "git",
